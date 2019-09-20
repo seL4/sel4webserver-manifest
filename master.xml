@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright 2019, Data61
+     Commonwealth Scientific and Industrial Research Organisation (CSIRO)
+     ABN 41 687 119 230.
+
+     This software may be distributed and modified according to the terms of
+     the BSD 2-Clause license. Note that NO WARRANTY is provided.
+     See "LICENSE_BSD2.txt" for details.
+
+     @TAG(DATA61_BSD)
+-->
+
+<manifest>
+
+    <remote name="seL4" fetch="../seL4" />
+
+    <remote name="sel4proj" fetch="../sel4proj" />
+
+    <!-- we default to repositories in the seL4 root -->
+    <default revision="master" remote="seL4" />
+
+    <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
+    <project name="seL4.git" path="kernel"/>
+
+    <project name="seL4_tools.git" path="tools/seL4">
+        <linkfile dest="griddle" src="cmake-tool/griddle"/>
+        <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
+    </project>
+
+    <project name="camkes-tool.git" path="projects/camkes-tool">
+        <linkfile dest="camkes_README.md" src="docs/index.md"/>
+    </project>
+
+    <project name="capdl.git" path="projects/capdl"/>
+
+    <project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
+
+    <project remote="sel4proj" name="sel4runtime.git" path="projects/sel4runtime"/>
+
+    <project name="seL4_libs.git" path="projects/seL4_libs"/>
+
+    <project name="util_libs.git" path="projects/util_libs"/>
+
+    <project remote="sel4proj" name="seL4_projects_libs.git" path="projects/seL4_projects_libs"/>
+
+    <project remote="sel4proj" name="projects_libs.git" path="projects/projects_libs"/>
+
+    <project remote="sel4proj" name="global-components.git" path="projects/global-components"/>
+
+    <project remote="sel4proj" name="camkes-arm-vm.git" path="projects/camkes-arm-vm"/>
+
+    <project remote="sel4proj" name="sel4webserver.git" path="projects/webserver">
+        <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
+    </project>
+
+    <!-- This is to use CMake scripts from this project.  Currently, no camkes components
+         from here are being used. -->
+    <project name="camkes-vm.git" path="projects/camkes-vm"/>
+    <project remote="sel4proj" name="camkes-vm-images.git" path="projects/camkes-vm-images"/>
+    <project remote="sel4proj" name="camkes-vm-linux.git" path="projects/camkes-vm-linux"/>
+</manifest>
