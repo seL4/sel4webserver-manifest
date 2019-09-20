@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright 2019, Data61
+     Commonwealth Scientific and Industrial Research Organisation (CSIRO)
+     ABN 41 687 119 230.
+
+     This software may be distributed and modified according to the terms of
+     the BSD 2-Clause license. Note that NO WARRANTY is provided.
+     See "LICENSE_BSD2.txt" for details.
+
+     @TAG(DATA61_BSD)
+-->
 <manifest>
   <remote fetch="../seL4" name="seL4"/>
   <remote fetch="../sel4proj" name="sel4proj"/>
@@ -12,7 +23,7 @@
   <project name="camkes-vm-images.git" path="projects/camkes-vm-images" remote="sel4proj" revision="82bf62ccfdec046dee868fe6de7979dd5367217e" upstream="master"/>
   <project name="camkes-vm-linux.git" path="projects/camkes-vm-linux" remote="sel4proj" revision="1a4e6a0cf4014bff182e7c1e7cca994c8770df76" upstream="master"/>
   <project name="camkes-vm.git" path="projects/camkes-vm" revision="a8d92ab0e239a2d1de7fef69226bf90f7dc6751f" upstream="master"/>
-  <project name="capdl.git" path="projects/capdl" revision="4037f22ba40e9fb0266caad1dbaf042743919831" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="303d23218d2380536fd5d4f29b415f6ac3fea7ef" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="15932d752b151bd77328c7d24a0bb3a0473e1856" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="22f3812381a1a15d8c6ae381ed9e36db2fcd7a66" upstream="sel4"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="8a7d481134b685a66c7a25058f6f1b331dd582f7" upstream="master"/>
