@@ -27,7 +27,7 @@
   <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="e053dcc33c44f00152a39a2cb1cfbc7904b6b7c1" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="a3b8da29b70f1b794513a8cd6a007562865a1e53" upstream="sel4"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="5fa79f91fab96b17a9b753cca568a3c5969e85a7" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="bbfd38455ede50e0e509e0f12bf0e68e97ab6dbb" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="0769d05f1ee49a2674341c441f0b0eb1edd1099f" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="72efa897a6c8abba8324d2cfedff5e64b5159dc8" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="sel4proj" revision="636a2d078dfed558bcecba1009b49a795def485f" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="7f75df199c81bdff55dce12cfeea20834ae29fa9" upstream="master">
