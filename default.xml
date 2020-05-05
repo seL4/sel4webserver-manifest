@@ -17,7 +17,7 @@
   <default remote="seL4" revision="master"/>
   
   <project name="camkes-arm-vm.git" path="projects/camkes-arm-vm" remote="sel4proj" revision="e952a37fdb5a92ca452512b3af0aea4186b749f5" upstream="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="fa9aa84e1d14677c5ff769beca6888ccc98f6e7b" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="eadf71b5c44ae4528c73b21929bc59154e07f1a9" upstream="master">
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
   <project name="camkes-vm-images.git" path="projects/camkes-vm-images" remote="sel4proj" revision="fd236575387617ff8c830c9da0c9379e96ca0a29" upstream="master"/>
@@ -38,5 +38,5 @@
   <project name="sel4webserver.git" path="projects/webserver" remote="sel4proj" revision="04a08d56ba6543a5bec8edc5a5bfffa764b91dea" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="f73984d7252e59c59e5fe8d3cc28164b597a3bb7" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="56bab2bfbd75d7d2e8eccba86deb30f1fca4eee0" upstream="master"/>
 </manifest>
