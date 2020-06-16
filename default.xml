@@ -27,7 +27,7 @@
   <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="sel4proj" revision="3bf7643ffc2dcdefd341b1fb7a9a4caeb5bec1d0" upstream="master"/>
   <project dest-branch="sel4" name="musllibc.git" path="projects/musllibc" revision="2af3006b0ccf36ba9ac5123f539d577fd97c5350" upstream="sel4"/>
   <project dest-branch="master" name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="cfbfec4d8730607d28e9fc662744a4a61a3e35dd" upstream="master"/>
-  <project dest-branch="master" name="seL4.git" path="kernel" revision="827fd621643c4055460f175c5da4f834cd369f60" upstream="master"/>
+  <project dest-branch="master" name="seL4.git" path="kernel" revision="d84e2bfae98925e798e2df19b5435044e19a65bf" upstream="master"/>
   <project dest-branch="master" name="seL4_libs.git" path="projects/seL4_libs" revision="a46a435a596ccb2cb0c559ed7976035b567a3ddb" upstream="master"/>
   <project dest-branch="master" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="sel4proj" revision="8dc52bb3181b4e39431b9865a4284f3f9364ccdb" upstream="master"/>
   <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="3f04d3acd67a60ca51ff8cc7ed44fb4308966357" upstream="master">
