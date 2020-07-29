@@ -20,7 +20,7 @@
   <project dest-branch="master" name="camkes-tool.git" path="projects/camkes-tool" revision="3c72f0ca178779de5c5a063498aab316c828e7e5" upstream="master">
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
-  <project dest-branch="master" name="camkes-vm-images.git" path="projects/camkes-vm-images" remote="sel4proj" revision="c09efd1c6fd000b1b42e7e77b6511df0c928957c" upstream="master"/>
+  <project dest-branch="master" name="camkes-vm-images.git" path="projects/camkes-vm-images" remote="sel4proj" revision="a380c33afd441b2c7e43e9b2f57e555d51ed56a1" upstream="master"/>
   <project dest-branch="master" name="camkes-vm-linux.git" path="projects/camkes-vm-linux" remote="sel4proj" revision="659a510b22bd9eaf956e905b87fec90f9be714b1" upstream="master"/>
   <project dest-branch="master" name="camkes-vm.git" path="projects/camkes-vm" revision="0aa76f13f35d310c754b497ade3c3e6b7634a295" upstream="master"/>
   <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="9c62d7b36788c22c03cee205fdb2032d84bd658a" upstream="master"/>
@@ -29,7 +29,7 @@
   <project dest-branch="master" name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="947fa8e1723948f2792df33dcd3c43b15aca6296" upstream="master"/>
   <project dest-branch="master" name="seL4.git" path="kernel" revision="d989d2b85c2608f268aabd77bfb3ef3c6829b567" upstream="master"/>
   <project dest-branch="master" name="seL4_libs.git" path="projects/seL4_libs" revision="dc74a3a31b023b2522b0f1da2906f9a1149236ce" upstream="master"/>
-  <project dest-branch="master" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="sel4proj" revision="1967d540d7e8f665da94f6815dd042c322b52b21" upstream="master"/>
+  <project dest-branch="master" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="sel4proj" revision="bb8d0ef98e87c0d9738037e519c0cd36f9196e6e" upstream="master"/>
   <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="ccc38660229116bd26807c7012636c70e1c873f3" upstream="master">
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
