@@ -16,11 +16,11 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project dest-branch="master" name="camkes-arm-vm.git" path="projects/camkes-arm-vm" remote="sel4proj" revision="d2ba3fb6ca31a3edbabea9fb4fb3282a7b6f1118" upstream="master"/>
+  <project dest-branch="master" name="camkes-arm-vm.git" path="projects/camkes-arm-vm" remote="sel4proj" revision="bed52e5d5d558b965c4c753d9efdc3ae0fd03557" upstream="master"/>
   <project dest-branch="master" name="camkes-tool.git" path="projects/camkes-tool" revision="98a4fdf8cce954b911df9ae3f4b3671f3d785bfd" upstream="master">
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
-  <project dest-branch="master" name="camkes-vm-images.git" path="projects/camkes-vm-images" remote="sel4proj" revision="a380c33afd441b2c7e43e9b2f57e555d51ed56a1" upstream="master"/>
+  <project dest-branch="master" name="camkes-vm-images.git" path="projects/camkes-vm-images" remote="sel4proj" revision="d7663269afe511138b6b961588a550125870af08" upstream="master"/>
   <project dest-branch="master" name="camkes-vm-linux.git" path="projects/camkes-vm-linux" remote="sel4proj" revision="dc354df3222766b9d36672575194e33f4edda9ac" upstream="master"/>
   <project dest-branch="master" name="camkes-vm.git" path="projects/camkes-vm" revision="1c5e168d0fd588b74d6abcdf66bb07777519191f" upstream="master"/>
   <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="54c539cb8c1baf5f9fe4d313724be2b226759b2b" upstream="master"/>
@@ -29,7 +29,7 @@
   <project dest-branch="master" name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="947fa8e1723948f2792df33dcd3c43b15aca6296" upstream="master"/>
   <project dest-branch="master" name="seL4.git" path="kernel" revision="036ffc1895515a393377768124ed3d47f9b434cf" upstream="master"/>
   <project dest-branch="master" name="seL4_libs.git" path="projects/seL4_libs" revision="dc74a3a31b023b2522b0f1da2906f9a1149236ce" upstream="master"/>
-  <project dest-branch="master" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="sel4proj" revision="5078dbb0e39a769f1b7b61e8cdc6a02e78190b67" upstream="master"/>
+  <project dest-branch="master" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="sel4proj" revision="fdc54ba678bb2ede49f3f0d04b8c2b138edcf4dd" upstream="master"/>
   <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="065cc0f4e8e413ddbdb43dc88fff9f4c48f1e681" upstream="master">
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
