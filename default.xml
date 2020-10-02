@@ -17,17 +17,17 @@
   <default remote="seL4" revision="master"/>
   
   <project dest-branch="master" name="camkes-arm-vm.git" path="projects/camkes-arm-vm" remote="sel4proj" revision="899c1d4a2b097b9ef35c51b84d186f7d6e16af02" upstream="master"/>
-  <project dest-branch="master" name="camkes-tool.git" path="projects/camkes-tool" revision="c33a84590422eaeea2ba97fd2add1102f5d72841" upstream="master">
+  <project dest-branch="master" name="camkes-tool.git" path="projects/camkes-tool" revision="fa0d94d4a3021ba23b92b07e764d4a3e8d371e6e" upstream="master">
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
   <project dest-branch="master" name="camkes-vm-images.git" path="projects/camkes-vm-images" remote="sel4proj" revision="d7663269afe511138b6b961588a550125870af08" upstream="master"/>
   <project dest-branch="master" name="camkes-vm-linux.git" path="projects/camkes-vm-linux" remote="sel4proj" revision="8217f9bde8fb71b42ede2d66632a0555bba139df" upstream="master"/>
-  <project dest-branch="master" name="camkes-vm.git" path="projects/camkes-vm" revision="d36125a2054297d92ebea461778a0ca81ee5cb7e" upstream="master"/>
-  <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="f320b548a2e25b65f79027e3ef6cc6f4c111b1c0" upstream="master"/>
+  <project dest-branch="master" name="camkes-vm.git" path="projects/camkes-vm" revision="b6b317d10f724daa2a85e8b93b15b2b9a797c2b1" upstream="master"/>
+  <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="29b66b82fdae3a3791e18d9b6b7efaf2ad89096a" upstream="master"/>
   <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="sel4proj" revision="790ef0f52841f4f92a28f94a21380b80d23c3e76" upstream="master"/>
   <project dest-branch="sel4" name="musllibc.git" path="projects/musllibc" revision="4a8335b2248d934e2e40386af4f1b0495b3c173d" upstream="sel4"/>
   <project dest-branch="master" name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="947fa8e1723948f2792df33dcd3c43b15aca6296" upstream="master"/>
-  <project dest-branch="master" name="seL4.git" path="kernel" revision="2ff45c3ca85912151594722d78a5192b5caf586f" upstream="master"/>
+  <project dest-branch="master" name="seL4.git" path="kernel" revision="4ee1f90a7d91cc7c84a31ac513bdbc13dd2f8e84" upstream="master"/>
   <project dest-branch="master" name="seL4_libs.git" path="projects/seL4_libs" revision="984ee48dec0310b367cf4a991da545c18ae6e1e8" upstream="master"/>
   <project dest-branch="master" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="sel4proj" revision="c15bec1db0ebc8eba0659a2a2a3a6c2696b59f17" upstream="master"/>
   <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="ffe3305d8d3926ccfa0fa8019063c786b75850d6" upstream="master">
