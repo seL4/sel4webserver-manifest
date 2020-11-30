@@ -36,27 +36,27 @@
 
     <project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
 
-    <project remote="sel4proj" name="sel4runtime.git" path="projects/sel4runtime"/>
+    <project name="sel4runtime.git" path="projects/sel4runtime"/>
 
     <project name="seL4_libs.git" path="projects/seL4_libs"/>
 
     <project name="util_libs.git" path="projects/util_libs"/>
 
-    <project remote="sel4proj" name="seL4_projects_libs.git" path="projects/seL4_projects_libs"/>
+    <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs"/>
 
-    <project remote="sel4proj" name="projects_libs.git" path="projects/projects_libs"/>
+    <project name="projects_libs.git" path="projects/projects_libs"/>
 
-    <project remote="sel4proj" name="global-components.git" path="projects/global-components"/>
+    <project name="global-components.git" path="projects/global-components"/>
 
-    <project remote="sel4proj" name="camkes-arm-vm.git" path="projects/camkes-arm-vm"/>
+    <project name="camkes-arm-vm.git" path="projects/camkes-arm-vm"/>
 
-    <project remote="sel4proj" name="sel4webserver.git" path="projects/webserver">
+    <project name="sel4webserver.git" path="projects/webserver">
         <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
     </project>
 
     <!-- This is to use CMake scripts from this project.  Currently, no camkes components
          from here are being used. -->
     <project name="camkes-vm.git" path="projects/camkes-vm"/>
-    <project remote="sel4proj" name="camkes-vm-images.git" path="projects/camkes-vm-images"/>
-    <project remote="sel4proj" name="camkes-vm-linux.git" path="projects/camkes-vm-linux"/>
+    <project name="camkes-vm-images.git" path="projects/camkes-vm-images"/>
+    <project name="camkes-vm-linux.git" path="projects/camkes-vm-linux"/>
 </manifest>
