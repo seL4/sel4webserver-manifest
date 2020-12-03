@@ -1,17 +1,11 @@
 <!--
- Copyright 2017, Data61
- Commonwealth Scientific and Industrial Research Organisation (CSIRO)
- ABN 41 687 119 230.
+     Copyright 2017, Data61, CSIRO
 
- This software may be distributed and modified according to the terms of
- the BSD 2-Clause license. Note that NO WARRANTY is provided.
- See "LICENSE_BSD2.txt" for details.
-
- @TAG(DATA61_BSD)
+     SPDX-License-Identifier: CC-BY-SA-4.0
 -->
 
 # seL4webserver reference application
 
-This repository contains the manifest for the [seL4webserver application](https://github.com/SEL4PROJ/sel4webserver).
+This repository contains the manifest for the [seL4webserver application](https://github.com/sel4/sel4webserver).
 
-See [Build Instructions](https://github.com/SEL4PROJ/sel4webserver/blob/master/README.md#build-instructions) for setup information.
+See [Build Instructions](https://github.com/sel4/sel4webserver/blob/master/README.md#build-instructions) for setup information.
