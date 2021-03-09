@@ -21,10 +21,10 @@
   <project name="global-components.git" path="projects/global-components" revision="02133497ed126910ec0f4ddb98b997e481d91ffa" upstream="master" dest-branch="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="690b6d75eac7172a4147395ecd155f7c9b910c12" upstream="sel4" dest-branch="sel4"/>
   <project name="projects_libs.git" path="projects/projects_libs" revision="88736edacee0d6583824befbedb337fdd4c9bb4e" upstream="master" dest-branch="master"/>
-  <project name="seL4.git" path="kernel" revision="4bd4bbac13afc2c929a080085351f959ca1a0356" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="kernel" revision="d6b83163b55c20ad146620fe82e261221d321316" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="600fe15be5d8d28b68a1f85fa4e5e8d131fde1bc" upstream="master" dest-branch="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="2e30fdeb1d32f1ac252c94b8d6dcf2b9f4ee17b5" upstream="master" dest-branch="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="f086b4b818d51519a6d00f6934d97c2a3a834cbe" upstream="master" dest-branch="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="91a8354be32ea13586fa2e3e856dfed6f09adc4c" upstream="master" dest-branch="master">
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
   </project>
@@ -32,5 +32,5 @@
   <project name="sel4webserver.git" path="projects/webserver" revision="75ee2b5e39eccb66c48805b383e70f2fff587421" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="5120243282f0edfec3806ba42e4733dd44b5d0a6" upstream="master" dest-branch="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="3e3a51ec3739c61dba82f96158b12700695b385e" upstream="master" dest-branch="master"/>
 </manifest>
