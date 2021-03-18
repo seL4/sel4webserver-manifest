@@ -11,7 +11,7 @@
   <default remote="seL4" revision="master"/>
   
   <project name="camkes-arm-vm.git" path="projects/camkes-arm-vm" revision="6e2bba84ee6ee34907092bab3d3940921bf8f4cb" upstream="master" dest-branch="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="fb5e8e43d9e5603f32afc778b95b790a777cdea3" upstream="master" dest-branch="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="3c72e418c7bf1fd68762074e7f91a9118c6eb013" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="camkes_README.md"/>
   </project>
   <project name="camkes-vm-images.git" path="projects/camkes-vm-images" revision="d7663269afe511138b6b961588a550125870af08" upstream="master" dest-branch="master"/>
