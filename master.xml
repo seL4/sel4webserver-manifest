@@ -41,15 +41,14 @@
 
     <project name="global-components.git" path="projects/global-components"/>
 
-    <project name="camkes-arm-vm.git" path="projects/camkes-arm-vm"/>
-
     <project name="sel4webserver.git" path="projects/webserver">
         <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
     </project>
 
+    <project name="camkes-vm.git" path="projects/camkes-vm"/>
+
     <!-- This is to use CMake scripts from this project.  Currently, no camkes components
          from here are being used. -->
-    <project name="camkes-vm.git" path="projects/camkes-vm"/>
     <project name="camkes-vm-images.git" path="projects/camkes-vm-images"/>
     <project name="camkes-vm-linux.git" path="projects/camkes-vm-linux"/>
 </manifest>
