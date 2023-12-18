@@ -19,7 +19,7 @@
   <project name="global-components.git" path="projects/global-components" revision="0a53b39805f44870b65bd33dfe7535a8856de281" upstream="master" dest-branch="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="9798aedbc3ee5fa3c1d7f788e9312df9203e7b0b" upstream="sel4" dest-branch="sel4"/>
   <project name="projects_libs.git" path="projects/projects_libs" revision="1e7f0b6ec0405b3288c606fd7e782660ace4aa07" upstream="master" dest-branch="master"/>
-  <project name="seL4.git" path="kernel" revision="7d93471e9c1858a4b072c13793863c655ddc9b62" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="kernel" revision="7bad3610f1adad0062f1babb4090dd1788ef2a03" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="043999f481d8f72f7993eb3d27f3cf3eb66b00a7" upstream="master" dest-branch="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="0d46afe203cda3f85ed2d86fb3ba5fe2e181e554" upstream="master" dest-branch="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="df31d5a844993166c88c8a1ccce5dd42018a7296" upstream="master" dest-branch="master">
@@ -27,7 +27,7 @@
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
   </project>
   <project name="sel4runtime.git" path="projects/sel4runtime" revision="d935dd05da0cf959e9fd0140af913dc6fdaa0221" upstream="master" dest-branch="master"/>
-  <project name="sel4webserver.git" path="projects/webserver" revision="3d52bdc937bbebe39bb591e6ba706e8764ab4acd" upstream="master" dest-branch="master">
+  <project name="sel4webserver.git" path="projects/webserver" revision="207f5cf8d531e0c5286963b77ee2a5bb5d5bffe1" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
   <project name="util_libs.git" path="projects/util_libs" revision="af6b18bd60e4f2e1a10ff1a1e687a46db02fa9db" upstream="master" dest-branch="master"/>
