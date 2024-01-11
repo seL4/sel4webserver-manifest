@@ -22,7 +22,7 @@
   <project name="seL4.git" path="kernel" revision="e6fbbbb065602142e73f19d797e1350dc76e63b9" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="f3443015111db398747b05b74f0668bb4c92044e" upstream="master" dest-branch="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="0d46afe203cda3f85ed2d86fb3ba5fe2e181e554" upstream="master" dest-branch="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="df31d5a844993166c88c8a1ccce5dd42018a7296" upstream="master" dest-branch="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="75fc8008f4acd84097d6a5def74f1fbc7672040e" upstream="master" dest-branch="master">
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
   </project>
@@ -30,5 +30,5 @@
   <project name="sel4webserver.git" path="projects/webserver" revision="207f5cf8d531e0c5286963b77ee2a5bb5d5bffe1" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="af6b18bd60e4f2e1a10ff1a1e687a46db02fa9db" upstream="master" dest-branch="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="0ede24ebad547298bf5414380fa82fb2062c1b11" upstream="master" dest-branch="master"/>
 </manifest>
