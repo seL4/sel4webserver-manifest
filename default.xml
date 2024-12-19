@@ -9,7 +9,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="5dd53c71f73a25f9673b77be43c918eefcd1dbb4" upstream="master" dest-branch="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="9c7c211cc45bf39a3261e5c3f2f31d34081ae53b" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="camkes_README.md"/>
   </project>
   <project name="camkes-vm-images.git" path="projects/camkes-vm-images" revision="38cc97b913d11a35dd95f4fec47c742a0c84f94a" upstream="master" dest-branch="master"/>
@@ -19,7 +19,7 @@
   <project name="global-components.git" path="projects/global-components" revision="0a53b39805f44870b65bd33dfe7535a8856de281" upstream="master" dest-branch="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="9798aedbc3ee5fa3c1d7f788e9312df9203e7b0b" upstream="sel4" dest-branch="sel4"/>
   <project name="projects_libs.git" path="projects/projects_libs" revision="250ebdc6a1b74ddb12f99eee34c2b41570fe0afa" upstream="master" dest-branch="master"/>
-  <project name="seL4.git" path="kernel" revision="b7ce213654946d5a6a9b798d14374264d5880724" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="kernel" revision="1732c05ef6b75fd18ce5161d099f0d73e7fcb6a3" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="d3d24dd818f99bd244d4def322818637d9a1d0cb" upstream="master" dest-branch="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="97360824eebc80e9a68fef9ef699f3c0ff8bd792" upstream="master" dest-branch="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="bef85f32a4829c5062fd6c808c7cab57b816cd9f" upstream="master" dest-branch="master">
@@ -27,7 +27,7 @@
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
   </project>
   <project name="sel4runtime.git" path="projects/sel4runtime" revision="bb75358167fe8bdc0e3df565bb419dc6eb150a60" upstream="master" dest-branch="master"/>
-  <project name="sel4webserver.git" path="projects/webserver" revision="638f767c7fa13962ea2cc0dba474f98b05c7ab35" upstream="master" dest-branch="master">
+  <project name="sel4webserver.git" path="projects/webserver" revision="fbe1e0b300805828c9ce5480119d092530e11ae0" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
   <project name="util_libs.git" path="projects/util_libs" revision="f98dad12344a4c0fecf37bd11c82692ecc7a4a9a" upstream="master" dest-branch="master"/>
