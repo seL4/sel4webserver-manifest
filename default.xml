@@ -30,5 +30,5 @@
   <project name="sel4webserver.git" path="projects/webserver" revision="9407ed9cc628bd65946304806b3b06613319abf0" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="486afd63572c50305526146ff5f3565c1887e59a" upstream="master" dest-branch="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="43e0806a2c3387a9afd6a86f0d5d6516991f5ae2" upstream="master" dest-branch="master"/>
 </manifest>
